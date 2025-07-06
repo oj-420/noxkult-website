@@ -3,15 +3,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
-  async rewrites() {
-    return [
-      {
-        source: '/',
-        destination: '/index.html',
-      },
-    ];
-  },
+  reactStrictMode: true
 };
 
 module.exports = nextConfig;
